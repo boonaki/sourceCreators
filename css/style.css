@@ -120,7 +120,7 @@ p{
 
 
 header + section{
-  background: linear-gradient(white, rgb(241, 248, 252));
+  background: linear-gradient(white, rgb(226, 243, 255));
   height: 500px;
   width: 100%;
 }
@@ -196,25 +196,24 @@ div p{
 
 
 .lastsec{
-  height: 800px;
+  background: rgb(180, 203, 216);
+  height: 10vh;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.lastsec section{
-  width: 80%;
-  margin: 4% 10%;
+.lastsec h4{
+  font-size: 15px;
 }
-.lastsec section p{
-  width: 40%;
-}
-.greySquare{
+
+/* .greySquare{
   background: rgb(180, 203, 216);
   width: 80%;
   margin: 0 10%;
   height: 400px;
   box-sizing: content-box;
-}
+} */
 
 h2{
   font-weight: 700;
